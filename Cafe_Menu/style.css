@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/bg.jpg');
+    background-position: center;
+}
+
+.menuBox {
+    margin-top: 115px;
+}
+
+.menu {
+    width: 578px;
+    height: 730px;
+    background-color: rgb(212, 181, 132);
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.first {
+    padding: 20px 0px;
+}
+
+.first h1 {
+    font-size: 38px;
+    padding: 10px 0px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.first p {
+    font-size: 16px;
+}
+
+.forBorder {
+    width: 88%;
+    height: 4px;
+    background-color: brown;
+    margin: auto;
+}
+
+.second {
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.second h2 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+}
+
+.unique {
+    margin-bottom: 10px;
+}
+
+.second img {
+    height: 41px;
+}
+
+.second h2 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.left ul,
+.right ul {
+    list-style: none;
+    text-align: left;
+}
+
+.left ul {
+    padding-left: 30px;
+}
+
+.left ul li {
+    padding: 3px 0px;
+}
+
+.right ul {
+    padding-right: 30px;
+}
+
+.fouth {
+    padding-top: 25px;
+}
+
+.fouth a {
+    padding-top: 25px;
+    color: black;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.fouth p {
+    padding-top: 11px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
